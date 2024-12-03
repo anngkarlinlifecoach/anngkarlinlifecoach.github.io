@@ -104,3 +104,10 @@ body::before {
     margin: 0;
 }
 
+.background p {
+    max-width: 600px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
