@@ -99,3 +99,19 @@ body::before {
 .contact-info a:hover {
     text-decoration: underline;
 }
+
+
+.quote {
+    color: #333; /* Text color */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.quote p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin: 0;
+}
