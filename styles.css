@@ -102,16 +102,16 @@ body::before {
 
 
 .quote {
-    color: #333; /* Text color */
-    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background for better readability */
+    color: #fff; /* White text color for contrast */
+    padding: 40px;
     border-radius: 8px;
     text-align: center;
-    max-width: 600px;
-    margin: auto;
+    max-width: 800px;
 }
 
 .quote p {
-    font-size: 1.5em;
-    line-height: 1.5;
+    font-size: 2em; /* Larger font size */
+    line-height: 1.4;
     margin: 0;
 }
