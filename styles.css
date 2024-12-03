@@ -5,18 +5,25 @@ body {
     background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
-    min-height: 100vh; /* Ensure the body is at least full height */
+    min-height: 100vh;
 }
 
 body::before {
     content: "";
-    position: fixed; /* Use fixed to cover the entire viewport */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh; /* Ensure full height */
-    background-color: rgba(138, 43, 226, 0.6); /* Adjust color for more grey */
+    height: 100vh;
+    background-color: rgba(128, 128, 192, 0.5); /* Greyer purple */
     z-index: -1;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 300px; /* Increase size */
+    height: auto;
+    max-width: 100%;
 }
 
 .nav {
