@@ -69,11 +69,27 @@ body::before {
 }
 
 .contact-info a {
-    color: #fff; /* Change to white for better visibility */
+    color: #fff;
     text-decoration: none;
+    background-color: rgba(106, 13, 173, 0.7); /* Purple background, slightly transparent */
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 .contact-info a:hover {
-    text-decoration: underline;
+    background-color: #6a0dad; /* Solid purple on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-decoration: none; /* Remove underline on hover */
+}
+
+.contact-info a:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .content {
