@@ -66,6 +66,10 @@ body::before {
     padding: 0 20px;
 }
 
+.container, h1, p {
+    font-size: 1.2em; /* Increase overall font size */
+}
+
 .profile-pic {
     border-radius: 50%;
     width: 200px; /* Increase the width */
@@ -93,7 +97,7 @@ body::before {
 }
 
 .contact-info a {
-    color: #6a0dad; /* Purple links */
+    color: #000; /* Purple links */
     text-decoration: none;
 }
 
