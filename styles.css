@@ -27,16 +27,18 @@ body::before {
 }
 
 .nav {
-    background-color: #6a0dad; /* Dark purple navigation bar */
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    background-color: #6a0dad; /* Dark purple navigation bar */
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     padding: 15px 30px;
 }
 
+.nav-link {
+    margin-right: 20px;
+}
+
 .nav a {
-    margin-left: 20px;
     text-decoration: none;
     color: #fff;
     font-weight: bold;
