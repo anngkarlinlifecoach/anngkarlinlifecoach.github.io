@@ -67,11 +67,11 @@ body::before {
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
 }
+
 .contact-info a {
-    color: #6a0dad;
+    color: #fff; /* Change to white for better visibility */
     text-decoration: none;
 }
-
 .contact-info a:hover {
     text-decoration: underline;
 }
