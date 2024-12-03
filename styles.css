@@ -15,7 +15,7 @@ body::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5); /* Slightly more opaque for readability */
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly more opaque for readability */
     z-index: -1;
 }
 
