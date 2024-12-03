@@ -99,7 +99,7 @@ body::before {
 }
 
 .quote p {
-    font-size: 4vw; /* Responsive font size */
+    font-size: 3vw; /* Responsive font size */
     line-height: 1.2;
     margin: 0;
 }
