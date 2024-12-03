@@ -5,16 +5,17 @@ body {
     background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
+    min-height: 100vh; /* Ensure the body is at least full height */
 }
 
 body::before {
     content: "";
-    position: absolute;
+    position: fixed; /* Use fixed to cover the entire viewport */
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(106, 13, 173, 0.5); /* semi-opaque purple */
+    width: 100vw;
+    height: 100vh; /* Ensure full height */
+    background-color: rgba(138, 43, 226, 0.6); /* Adjust color for more grey */
     z-index: -1;
 }
 
