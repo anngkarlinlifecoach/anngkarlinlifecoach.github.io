@@ -21,7 +21,7 @@ body::before {
 
 .profile-pic {
     border-radius: 50%;
-    width: 300px; /* Increase size */
+    width: 600px; /* Increase size */
     height: auto;
     max-width: 100%;
 }
