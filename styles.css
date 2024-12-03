@@ -62,12 +62,11 @@ body::before {
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: #6a0dad; /* Dark purple footer */
+    background-color: #6a0dad;
     color: #fff;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
 }
-
 .contact-info a {
     color: #6a0dad;
     text-decoration: none;
@@ -85,11 +84,17 @@ body::before {
 }
 
 .quote {
-    background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Darker for better contrast */
     color: #fff;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
     max-width: 700px;
-    margin: 20px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Stronger shadow for readability */
 }
+
