@@ -15,7 +15,7 @@ body::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(128, 128, 192, 0.5); /* Greyer purple */
+    background-color: rgba(153, 153, 255, 0.75); /* Greyer purple */
     z-index: -1;
 }
 
