@@ -70,13 +70,6 @@ body::before {
     font-size: 1.2em; /* Increase overall font size */
 }
 
-.profile-pic {
-    border-radius: 50%;
-    width: 200px; /* Increase the width */
-    height: auto;
-    max-width: 100%;
-}
-
 .footer {
     text-align: center;
     padding: 20px;
