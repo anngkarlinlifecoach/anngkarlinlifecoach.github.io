@@ -21,7 +21,7 @@ body::before {
 .nav {
     display: flex;
     justify-content: center;
-    background-color: #6a0dad; /* Dark purple navigation bar */
+    background-color: rgba(138, 144, 180, 1); /* Dark purple navigation bar */
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     padding: 15px 30px;
 }
