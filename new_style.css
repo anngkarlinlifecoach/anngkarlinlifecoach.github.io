@@ -39,8 +39,8 @@ nav ul li a {
 /* Section Styling */
 section {
     padding: 60px 20px;
-    max-width: 1200px; /* Increased width */
-    margin: auto;
+/*     max-width: 1200px; /* Increased width */
+    margin: auto; */
 }
 
 /* Welcome Section */
