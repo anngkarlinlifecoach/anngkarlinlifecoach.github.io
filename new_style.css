@@ -11,8 +11,9 @@ body {
     line-height: 1.6;
 }
 
+/* Navigation Bar */
 nav {
-    background-color: rgba(138, 144, 189, 1); /* Soft lavender-gray for calmness */
+    background-color: rgba(138, 144, 189, 1);
     padding: 10px 20px;
     position: sticky;
     top: 0;
@@ -35,12 +36,14 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Section Styling */
 section {
     padding: 60px 20px;
-    max-width: 800px;
+    max-width: 1200px; /* Increased width */
     margin: auto;
 }
 
+/* Welcome Section */
 #welcome {
     background: url('background.jpg') no-repeat center center/cover;
     color: white;
@@ -48,6 +51,7 @@ section {
     padding: 120px 20px;
 }
 
+/* About Section */
 #about img {
     width: 150px;
     height: 150px;
@@ -61,8 +65,9 @@ section {
     color: #444;
 }
 
+/* Testimonials Section */
 #testimonials {
-    background-color: #F9F9F9;
+    background-color: #f9f9f9;
     border-top: 2px solid #ccc;
     text-align: center;
     padding: 40px 20px;
@@ -70,19 +75,22 @@ section {
 
 blockquote {
     margin: 20px auto;
-    padding: 10px;
+    padding: 20px; /* Increased padding */
     width: 80%;
     font-style: italic;
-    border-left: 4px solid #7C8798;
+    border-left: 4px solid #7c8798;
+    background: #fff;
 }
 
+/* Contact Section */
 #contact {
-    background-color: #E8EAF6;
+    background-color: #e8eaf6;
     text-align: center;
+    padding: 40px 20px; /* Added padding */
 }
 
 #contact button {
-    background-color: #7C8798;
+    background-color: #7c8798;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -109,9 +117,10 @@ blockquote {
     margin-top: 10px;
 }
 
+/* Footer Styling */
 footer {
-    background-color: #7C8798;
+    background-color: #7c8798;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
