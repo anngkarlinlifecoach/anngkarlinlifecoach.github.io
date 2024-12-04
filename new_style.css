@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-    background-color: #7C8798; /* Soft lavender-gray for calmness */
+    background-color: rgba(138, 144, 189, 1); /* Soft lavender-gray for calmness */
     padding: 10px 20px;
     position: sticky;
     top: 0;
